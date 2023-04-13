@@ -16,7 +16,7 @@ Inicio
       leia (nota)
       
    // MOD = "%"
-      se nota % 1 = 0 entao
+      se nota % 2 = 0 entao
          i <- i - 1
          p <- p + 1
       fimse
@@ -24,4 +24,27 @@ Inicio
    escreval("A quantidade de número impares foi de: ",i)
    escreval("A quantidade de número pares foi de: ", p)
 
+Fimalgoritmo
+]
+
+
+
+Algoritmo "semnome"
+// Disciplina  :  [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 13/04/2023
+Var
+   // Seção de Declarações das variáveis
+   nota, i, p : inteiro
+Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+para nota de 100 ate 200 faca
+// MOD = "%"
+
+      se nota % 2 <> 0 entao
+       escreval(nota)
+      fimse
+   fimpara
 Fimalgoritmo
