@@ -1,0 +1,30 @@
+Var
+   // Seção de Declarações das variáveis
+   primeironumero, segundonumero, b : inteiro
+Inicio
+   //atividade
+   
+   escreval(" digite o primeiro numero:")
+   leia(primeironumero)
+   
+   escreval("digite o segundo numero:")
+   leia(segundonumero)
+
+   
+   se (b > -1) entao
+      escreval("o numero esta negativo")
+  
+  fimse
+   
+   para b de primeironumero ate segundonumero passo -1 faca
+      escreval (b)
+      
+   fimpara
+   para b de primeironumero ate segundonumero passo 1 faca
+      escreval (b)
+      
+   fimpara
+   escreval("primeironumero:", primeironumero)
+   escreval("segundonumero:", segundonumero)
+
+Fimalgoritmo
